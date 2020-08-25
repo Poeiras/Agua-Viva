@@ -1,0 +1,1 @@
+  20/08/2020 03:31:04 BRT: Starting composition “agua-viva”.  Output To: /Volumes/HV620S/JOGO-TCC/agua-viva/agua-viva_[#####].png    20/08/2020 03:31:06 BRT: Finished composition “agua-viva”.  Total Time Elapsed: 2 SecondsLog closed on 20/08/2020 at 03:31:06 BRT

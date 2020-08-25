@@ -1,0 +1,1 @@
+  20/08/2020 03:22:18 BRT: Starting composition “agua-viva”.  Output To: /Users/macbookproretina/Downloads/agua-viva.mov    20/08/2020 03:22:22 BRT: Finished composition “agua-viva”.  Total Time Elapsed: 4 SecondsLog closed on 20/08/2020 at 03:22:23 BRT

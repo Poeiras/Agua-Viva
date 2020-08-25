@@ -1,0 +1,1 @@
+  19/08/2020 02:37:54 BRT: Starting composition “Comp 1”.  Output To: /Users/macbookproretina/Downloads/jogo.mov    19/08/2020 02:38:25 BRT: Finished composition “Comp 1”.  Total Time Elapsed: 31 SecondsLog closed on 19/08/2020 at 02:38:25 BRT
