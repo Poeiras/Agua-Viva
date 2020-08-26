@@ -2,11 +2,16 @@
 
 /// @description config player
 //as variáveis só checam os botões
-
 var esq = keyboard_check(vk_left);
 var dir = keyboard_check(vk_right);
 var cima = keyboard_check(vk_up);
 var baixo = keyboard_check(vk_down);
+var botoes = esq || dir || cima || baixo;
+
+if(botoes)
+	{
+		audio_play_sound(snd_move,1,false);
+	}
 
 // Operação de movimento = (1 - 0) * velocidade = movimento
 var horizontal = (dir - esq ) * velocidade;
@@ -17,6 +22,16 @@ x += horizontal;
 y += vertical;
 x = clamp(x,30, room_width	- 30);
 y = clamp(y,30, room_height	- 30);
+
+//Invencibilidade
+if(invencivel)
+	{
+		image_blend = c_red;
+	}
+else
+	{
+		image_blend = noone;
+	}
 
 //Fim do player
 if(vida <= 0)

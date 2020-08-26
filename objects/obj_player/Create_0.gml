@@ -3,6 +3,7 @@
 //Movimento e vida 
 velocidade = 7.5;
 vida = 3;
+invencivel = false;
 
 //Textos
 contador = 0;

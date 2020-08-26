@@ -1,16 +1,30 @@
 /// @description configuração
 
 //Configuração visual
-image_angle += rotacao;
-if(image_xscale <= 1 && image_yscale <= 1)
+
+//Rotação de imagem
+image_angle += rotacao * global.nivel;
+
+//Efeito de aumentar e diminuir
+if(aumentar)
 	{
 		image_xscale += taxa;
 		image_yscale += taxa;
+		if(image_xscale >= 1.15)
+			{
+				aumentar = false;
+				diminuir = true;
+			}
 	}
-if(image_xscale >= 1.5 && image_yscale >= 1.5)
+if(diminuir)
 	{
 		image_xscale -= taxa;
 		image_yscale -= taxa;
+		if(image_xscale <= 0.85)
+			{
+				aumentar = true;
+				diminuir = false;
+			}
 	}
 
 //Objeto fora da tela

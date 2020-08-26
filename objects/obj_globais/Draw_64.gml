@@ -4,12 +4,12 @@
 draw_set_color(c_white);
 
 //Instruções
+/*
 if(room = rm_menu)
 	{
-		draw_text(global.metadex,10,"USE AS SETAS PARA SE MOVER");
-		draw_text(global.metadex,30,"NAVEGUE O MÁXIMO POSSÍVEL COM Á AGUA VIVA");
-		draw_text(global.metadex,50,"AS ONDAS INIMIGOS SÃO INIFITAS");
+		draw_text(global.metadex,100,"Ajude a agência Agua-Viva!" + "\n" + "Chegue ao Presentation dia 03/09" + "\n" + "Desvie dos obstáculos!");
 	}
+	*/
 
 //posições dos mostradores de jogo
 if(room = rm_fase)
