@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_globais","path":"objects/obj_globais/obj_globais.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":64.0,"resourceVersion":"1.0","name":"inst_7DD3F2F2","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_sons","path":"objects/obj_sons/obj_sons.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":96.0,"resourceVersion":"1.0","name":"inst_28C68F79","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Controladoras","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_propaganda","path":"objects/obj_propaganda/obj_propaganda.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":352.0,"resourceVersion":"1.0","name":"inst_6A33FA6E","tags":[],"resourceType":"GMRInstance",},
@@ -29,7 +30,7 @@
     {"spriteId":{"name":"spr_bckg","path":"sprites/spr_bckg/spr_bckg.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":2.0,"stretch":true,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rm_menu/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_7DD3F2F2","path":"rooms/rm_menu/rm_menu.yy",},
@@ -38,6 +39,7 @@
     {"name":"inst_22E5CC3C","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_6A33FA6E","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_569BC9B2","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_28C68F79","path":"rooms/rm_menu/rm_menu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

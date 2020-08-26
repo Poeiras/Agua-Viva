@@ -39,7 +39,7 @@ else
 	{
 		image_alpha = 1;
 	}
-if(n1 >= 4)
+if(n1 >= 5)
 	{
 		n1 = 1;
 	}

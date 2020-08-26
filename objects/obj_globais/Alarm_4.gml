@@ -33,5 +33,5 @@ if (instance_exists(obj_player))
 	}
 else
 	{
-		alarm [4] = 0;
+		alarm [4] = false;
 	}

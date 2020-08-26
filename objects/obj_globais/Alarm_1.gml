@@ -35,9 +35,9 @@ repeat (repete)
 // após o fim do laço, recontagem do alarme
 if (instance_exists(obj_player))
 	{
-		alarm [1] = global.segundo * 8;
+		alarm [1] = global.segundo * 6;
 	}
 else
 	{
-		alarm [1] = 0;
+		alarm [1] = false;
 	}

@@ -1,5 +1,9 @@
 /// @description
-if(!invencivel)
+if(invencivel)
+	{
+		exit;
+	}
+else
 	{
 		vida --;
 	}

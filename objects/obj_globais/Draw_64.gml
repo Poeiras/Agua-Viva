@@ -23,8 +23,9 @@ if(room = rm_fase)
 // Mostradores de recordes
 if(room = rm_recorde)
 	{
+		show_debug_message(global.nivel);
 		draw_text(global.metadex,50,"OBRIGADO POR JOGAR!");
 		draw_text(global.metadex,75,"CONFIRA NOSSO SITE E CADASTRE-SE NO FACEBOOK!");
-		draw_text(global.metadex,100,"SUA ÚLTIMA PARTIDA: " + string(int64(global.last)));
-		draw_text(global.metadex,125,"A ONDA MAIS DIFÍCIL QUE VOCÊ CHEGOU: "  +string(int64(global.recorde)));
+		draw_text(global.metadex,100,"SUA ÚLTIMA PARTIDA: " + string(global.last));
+		draw_text(global.metadex,125,"A ONDA MAIS DIFÍCIL QUE VOCÊ CHEGOU: "  +string(global.recorde));
 	}

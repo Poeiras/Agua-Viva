@@ -5,9 +5,12 @@ global.metadex	= room_width/2;
 global.metadey	= room_height/2;
 
 //Flow do jogo
-global.nivel	= 0;
-global.recorde	= 0;
-global.last		= 0;
+if(room = rm_menu)
+	{
+		global.nivel	= 0;
+		global.recorde	= 0;
+		global.last		= 0;
+	}
 
 //Player
 global.vivo = false;	// verifica se ele está na tela

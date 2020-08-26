@@ -1,11 +1,11 @@
 /// @description configurações de níveis
 
 //Recorde
-global.last = global.nivel;
 if(global.nivel > global.recorde)
 	{
 		global.recorde = global.nivel;
 	}
+global.last = global.nivel;
 //Mudança de tela de morte
 if(global.morto)
 	{
