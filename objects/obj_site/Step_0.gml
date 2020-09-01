@@ -2,9 +2,9 @@
 
 if (position_meeting(mouse_x,mouse_y,obj_site))
 	{
-		image_blend = c_green;
+		image_alpha = 0.75;
 	}
 else
 	{
-		image_blend = false;
+		image_alpha = 1;
 	}

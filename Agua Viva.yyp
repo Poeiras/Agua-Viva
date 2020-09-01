@@ -15,6 +15,7 @@
     {"id":{"name":"obj_instrucao","path":"objects/obj_instrucao/obj_instrucao.yy",},"order":3,},
     {"id":{"name":"snd_pwer","path":"sounds/snd_pwer/snd_pwer.yy",},"order":2,},
     {"id":{"name":"spr_inimigo03","path":"sprites/spr_inimigo03/spr_inimigo03.yy",},"order":7,},
+    {"id":{"name":"spr_insta","path":"sprites/spr_insta/spr_insta.yy",},"order":9,},
     {"id":{"name":"obj_globais","path":"objects/obj_globais/obj_globais.yy",},"order":1,},
     {"id":{"name":"spr_inimigo02","path":"sprites/spr_inimigo02/spr_inimigo02.yy",},"order":6,},
     {"id":{"name":"obj_coracao","path":"objects/obj_coracao/obj_coracao.yy",},"order":1,},

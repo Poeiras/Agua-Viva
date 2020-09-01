@@ -9,6 +9,6 @@ diminuir	= false;
 n1		 = 0;
 texto[0] = "Clique na Água Viva!" ;
 texto[1] = "Preparado para presentation?" ;
-texto[2] = "É dia 03/09!";
+texto[2] = "É dia 10/09 as 09:15!";
 texto[3] = "Será incrível!";
 texto[4] = "Obrigado por jogar!";

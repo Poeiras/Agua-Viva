@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_botao",
-    "path": "sprites/spr_botao/spr_botao.yy",
+    "name": "spr_insta",
+    "path": "sprites/spr_insta/spr_insta.yy",
   },
   "solid": false,
   "visible": true,
