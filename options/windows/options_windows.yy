@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Água Viva",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "1.0.0.3",
+  "option_windows_version": "1.0.0.4",
   "option_windows_company_info": "Mr.Dust Estúdios",
   "option_windows_product_info": "Água Viva",
   "option_windows_copyright_info": "Mr.Dust Estúdios",

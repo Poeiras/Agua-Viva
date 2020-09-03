@@ -3,8 +3,10 @@ if(room = rm_fase &&! instance_exists(obj_player))
 	{
 		//Criador do player
 		instance_create_layer(global.metadex,room_height - 100,"Player",obj_player);
-		global.vivo = true;
-		global.morto = false;
+		global.vivo		= true;
+		global.morto	= false;
+		global.nivel	= 1;
+		global.last		= global.nivel;
 		
 		//Alarme de inimigos
 		alarm[0] = global.segundo *2; //inimigo 01
